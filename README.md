@@ -1,66 +1,48 @@
-<!-- TITLE -->
+<!-- Título -->
+# Exercício 1
 
-# USER EXPERIENCE (UX)
+***Conteúdo do Exercício:***
 
-<!-- TABLE OF CONTENTS -->
+Você deverá desenvolver uma aplicação para um consultório dentário, mas como é inexperiente, foi contratado para desenvolver apenas um trecho de uma aplicação.
 
-<!-- ## TABELA DE CONTEÚDO -->
+O seu trabalho consiste em documentar em **UML** um modelo que represente um dentista.
 
-<!-- OVERVIEW -->
+Os dentistas possuem as seguintes características:
 
-<!-- ## VISTA POR CIMA -->
+* Nome;
+* Sobrenome;
+* Especialidade;
+* Registro no conselho regional de odontologia;
+* Se está ativo ou não;
 
-<!-- SCREENSHOT -->
+Eles ainda poderão atender pacientes, marcar, remarcar e cancelar consultas e indicar que não estão disponíveis porque irão para um congresso.
 
-<!-- ### FOTO DA TELA -->
+| Dentista|
+| :------ |
+| - nome: `string` |
+| - sobrenome: `string` |
+| - especialidade: `string` |
+| - inscricaoCRO: `string` |
+| - estado: `boolean` |
+| + atenderPaciente() |
+| + marcarConsulta() |
+| + remarcarConsulta() |
+| + cancelarConsulta() |
+| + viajarCongresso() |
 
-<!-- LINKS -->
+<!-- Informações -->
+## &#8505; Informações
 
-<!-- ### LINKS -->
-
-<!-- MY PROCESS -->
-
-<!-- ## MEU PROCESSO -->
-
-<!-- BUILT WITH -->
-
-<!-- ### CONSTRUIDO COM -->
-
-<!-- WHAT I LEARNED -->
-
-<!-- ### O QUE APRENDI -->
-
-<!-- CONTINUED DEVELOPMENT -->
-
-<!-- ### DESENVOLVIMENTO CONTÍNUO -->
-
-<!-- USEFUL -->
-
-<!-- ### RECURSOS ÚTEIS -->
-
-<!-- AUTHOR -->
-
-<!-- ## AUTOR -->
-
-<!-- ACKNOWLEDGMENTS -->
-
-<!-- ## AGRADECIMENTOS -->
-
-<!-- INFORMATION -->
-
-## INFORMAÇÕES
-
-![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fuser-experience-front-end-zp&label=Visitantes&labelColor=%23f9e64f&countColor=%23008000&style=plastic "Total de Visitas")
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fcla-exe-1-hor-pra-1-log-ori-obj-com-bas&label=Visitantes&labelColor=%23700070&labelStyle=none&countColor=%23000fff&style=plastic&color=%23ffffff "Total de Visitantes")
 &nbsp;
-![followrs](https://img.shields.io/github/followers/Devsgeeknerd?style=plastic&label=SEGUIDORES&labelColor=f9e64f "Total de Seguidores")
+![Followers](https://img.shields.io/github/followers/Devsgeeknerd?style=p&label=Seguidores&labelColor=800080&color=000fff "Total de Seguidores")
 &nbsp;
-![watchers](https://img.shields.io/github/watchers/Devsgeeknerd/user-experience-front-end-zp?style=plastic&label=OBSERVADORES&labelColor=f9e64f "Total de Observadores")
+![Watchers](https://img.shields.io/github/watchers/Devsgeeknerd/cla-exe-1-hor-pra-1-log-ori-obj-com-bas?style=p&label=Observadores&labelColor=800080&color=000fff "Total de Observadores")
 &nbsp;
-![stars](https://img.shields.io/github/stars/Devsgeeknerd/user-experience-front-end-zp?style=plastic&label=ESTRELAS&labelColor=f9e64f "Total de Estrelas Recebidas")
+![Stars](https://img.shields.io/github/stars/Devsgeeknerd/cla-exe-1-hor-pra-1-log-ori-obj-com-bas?style=p&label=Estrelas&labelColor=800080&color=000fff "Total de Estrelas")
 &nbsp;
-![forks](https://img.shields.io/github/forks/Devsgeeknerd/user-experience-front-end-zp?style=plastic&label=BIFURCAÇÕES&labelColor=f9e64f "Total de Bifurcações")
+![Forks](https://img.shields.io/github/forks/Devsgeeknerd/cla-exe-1-hor-pra-1-log-ori-obj-com-bas?style=p&label=Bifurcações&labelColor=800080&color=000fff "Total de Bifurcações")
 &nbsp;
-![repo size](https://img.shields.io/github/repo-size/Devsgeeknerd/user-experience-front-end-zp?style=plastic&label=TAMANHO&labelColor=f9e64f "Tamanho do Repositório")
+![Repo Size](https://img.shields.io/github/repo-size/Devsgeeknerd/cla-exe-1-hor-pra-1-log-ori-obj-com-bas?style=p&label=Tamanho&labelColor=800080&color=000fff "Tamanho do Repositório")
 &nbsp;
-![license](https://img.shields.io/github/license/Devsgeeknerd/user-experience-front-end-zp?style=plastic&label=LICENÇA&labelColor=f9e64f "Licença do Repositório")
-
+![License](https://img.shields.io/github/license/Devsgeeknerd/cla-exe-1-hor-pra-1-log-ori-obj-com-bas?style=p&label=Licença&labelColor=800080&color=000fff "Licença do Repositório")
