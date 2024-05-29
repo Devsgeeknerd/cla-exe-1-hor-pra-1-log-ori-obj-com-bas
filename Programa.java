@@ -15,5 +15,6 @@ public class Programa {
     dentista1.atenderPaciente();
 
     dentista2.atenderPaciente();
+    dentista2.marcarConsulta();
   }
 }
