@@ -24,5 +24,8 @@ public class Dentista {
   }
 
   public void marcarConsulta() {
+    if (estado) {
+      System.out.println("Consulta marcada com " + nome + " " + sobrenome + ".");
+    }
   }
 }
