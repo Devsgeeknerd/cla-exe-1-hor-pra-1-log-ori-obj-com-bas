@@ -9,5 +9,6 @@ public class Programa {
 
     dentista1.atenderPaciente();
     dentista1.marcarConsulta();
+    dentista1.remarcarConsulta();
   }
 }
