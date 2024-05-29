@@ -13,5 +13,7 @@ public class Programa {
     dentista1.cancelarConsulta();
     dentista1.viajarCongresso();
     dentista1.atenderPaciente();
+
+    dentista2.atenderPaciente();
   }
 }
