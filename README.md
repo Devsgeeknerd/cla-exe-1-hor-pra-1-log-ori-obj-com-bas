@@ -30,6 +30,9 @@ Eles ainda poderão atender pacientes, marcar, remarcar e cancelar consultas e i
 | + cancelarConsulta() |
 | + viajarCongresso() |
 
+Resolução:
+1.[Dentista.](Dentista.java)
+
 <!-- Informações -->
 ## &#8505; Informações
 
