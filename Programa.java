@@ -8,5 +8,6 @@ public class Programa {
     Dentista dentista2 = new Dentista("Vanderley", "Nerd", "Endodontia", "CRO864220", true);
 
     dentista1.atenderPaciente();
+    dentista1.marcarConsulta();
   }
 }
