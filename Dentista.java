@@ -34,6 +34,8 @@ public class Dentista {
   public void remarcarConsulta() {
     if (estado) {
       System.out.println("Consulta remarcada com " + nome + " " + sobrenome + ".");
+    } else {
+      System.out.println(nome + " " + sobrenome + " não esta ativo para remarcar consultas.");
     }
   }
 }
